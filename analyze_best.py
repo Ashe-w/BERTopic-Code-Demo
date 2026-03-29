@@ -12,7 +12,7 @@ from openai import OpenAI as OpenAIClient
 from bertopic.representation import OpenAI as OpenAIRepresentation
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 client = OpenAIClient()
 
 # 1 load data
